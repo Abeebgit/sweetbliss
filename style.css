@@ -367,7 +367,11 @@ body {
         margin-top: 110px;
         gap: 0px;
     }
-    .text h3, p {
+   .aboutitems .text h3 {
+        text-align: center;
+    }
+
+    .aboutitems .text p {
         text-align: center;
     }
 
@@ -621,9 +625,21 @@ body {
     font-size: 10px;
     line-height: 17px;
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px){
+    .testgrid .bg:nth-of-type(1){
+        width: 300px;
+    }
+    .testgrid .bg:nth-of-type(2){
+        width: 300px;
+    }
+    .testgrid .bg:nth-of-type(3){
+        width: 300px;
+    }
+    .testimonies .bg .blurbg{
+        width: 300px;
+    }
 }
+
 /* TESTIMONIALS ENDS----------------------------- */
 
 /* FOOTER BEGINS----------------------------- */
