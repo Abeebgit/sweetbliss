@@ -291,7 +291,7 @@ body {
     color: #000000;
 }
 .numbers p{
-    font-family: 'anydoreregular';
+    font-family: 'Anydore';
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
@@ -335,13 +335,6 @@ body {
         width: 100%;
     }
 }
-
-@media screen and (max-width: 540px) {
-    .numbers p {
-        font-family: 'anydoreregular';
-    }
-}
-
 
 /* METRICS END----------------------------- */
 
