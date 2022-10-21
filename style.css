@@ -307,6 +307,7 @@ body {
         width: 100%;
     }      
 }
+
 @media screen and (max-width: 540px) {
     .linearbg {
         padding: 16px 24px;
@@ -334,6 +335,14 @@ body {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 540px) {
+    .numbers p {
+        font-family: 'anydoreregular';
+    }
+}
+
+
 /* METRICS END----------------------------- */
 
 /* ABOUT US----------------------------- */
